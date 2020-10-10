@@ -1,0 +1,52 @@
+
+/* our team */
+
+.ourteam{
+    text-align: center;
+    padding: 5% 10%;
+    background: #f5f5f5;
+}
+
+
+h1.title{
+	margin-bottom: 20px;
+	color: #fb2274;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 15px;
+    letter-spacing: 5px;
+}
+
+.ourteam_wrapper{
+	display: flex;
+    flex-direction: column;
+}
+
+.ourteam_wrapper #team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team1 #team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members{
+	width: 25%;
+	height: auto;
+	cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_members img{
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_members:hover img{
+	transform: scale(1.1);
+}

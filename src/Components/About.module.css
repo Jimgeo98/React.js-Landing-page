@@ -1,0 +1,23 @@
+
+/* About */
+
+.about{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+h1.title{
+	margin-bottom: 25px;
+	color: #fb2274;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 15px;
+	letter-spacing: 5px;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #242121;
+}

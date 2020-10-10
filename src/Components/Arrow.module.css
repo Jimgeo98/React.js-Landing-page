@@ -1,0 +1,22 @@
+
+/* arrow */
+
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #fb2274;
+	border-radius: 50%;
+	color: blue;
+}
+
+.arrow img{
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+}
