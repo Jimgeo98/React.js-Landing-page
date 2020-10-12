@@ -15,8 +15,16 @@
 	color: #fb2274;
 }
 
+.logo:hover{
+	transform: scale(1.1);
+}
+
 .navbar_items ul{
 	display: flex;
+}
+
+.navbar_items:hover{
+	transform: scale(1.1);
 }
 
 .navbar_items ul li{
@@ -26,6 +34,7 @@
 .navbar_items ul li a{
 	text-transform: uppercase;
 	color: #fff;
+	padding: 10px;
 }
 
 .navbar_items ul li a:hover{
@@ -52,6 +61,10 @@
 	.navbar_items ul li{
 		margin-top: 35px;
 		padding: 10px;
+	}
+
+	.navbar_items:hover{
+		transform: scale(1.1);
 	}
 
 }

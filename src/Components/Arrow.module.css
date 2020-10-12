@@ -13,6 +13,7 @@
 	background: #fb2274;
 	border-radius: 50%;
 	color: blue;
+	transition: width 0.5s, height 0.5s, transform 0.5s;
 }
 
 .arrow img{
