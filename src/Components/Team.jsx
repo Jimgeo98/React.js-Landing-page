@@ -6,7 +6,7 @@ import image4 from '../images/team4.jpg'
 import image5 from '../images/team5.jpg'
 import image6 from '../images/team6.jpg'
 import styles from './Team.module.css'
-
+import LightSpeed from 'react-reveal/LightSpeed';
 
 
 const Team = () => {
@@ -14,7 +14,10 @@ const Team = () => {
     return (
 
         <div className={styles.ourteam} id="ourteam">
-			<h1 className={styles.title}>our team</h1>
+
+			<LightSpeed left>
+				<h1 className={styles.title}>our team</h1>
+        	</LightSpeed>
 
 			<div className={styles.ourteam_wrapper}>
 
