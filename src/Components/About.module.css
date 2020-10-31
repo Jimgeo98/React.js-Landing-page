@@ -1,23 +1,55 @@
 
 /* About */
 
-.about{
-    text-align: center;
-    padding: 5% 10%;
+.us{
+	height: 50rem;
 }
 
-h1.title{
+.us .about{
+    text-align: center;
+	padding: 5% 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.us .about img{
+	width: 90%;
+	border-radius: 20px;
+	margin-left: 10px;
+}
+
+.us .about img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.us h1.title{
 	margin-bottom: 25px;
 	color: #fb2274;
 	text-transform: uppercase;
 	font-size: 38px;
 	word-spacing: 15px;
 	letter-spacing: 5px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 }
 
-p{
+.us .cont{
 	margin-bottom: 15px;
 	font-size: 16px;
 	line-height: 20px;
 	color: #242121;
 }
+
+@media screen and (max-width: 1300px){
+	.us .about{
+		flex-wrap: wrap;
+	}
+
+	.us .about img{
+		width: 60%;
+		margin-top: 20px;
+	}
+}
+
