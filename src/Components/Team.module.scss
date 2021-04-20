@@ -46,8 +46,8 @@ h1.title{
 	height: auto;
 	transition: all 0.5s ease;
 	border-radius: 15px;
-}
 
-.ourteam_wrapper .team_members:hover img{
-	transform: scale(1.1);
+	&:hover{
+		transform: scale(1.1);
+	}
 }

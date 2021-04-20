@@ -5,7 +5,7 @@ import image3 from '../images/team3.jpg'
 import image4 from '../images/team4.jpg'
 import image5 from '../images/team5.jpg'
 import image6 from '../images/team6.jpg'
-import styles from './Team.module.css'
+import styles from './Team.module.scss'
 import LightSpeed from 'react-reveal/LightSpeed';
 
 

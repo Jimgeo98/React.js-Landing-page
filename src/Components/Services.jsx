@@ -3,7 +3,7 @@ import service1 from '../images/services-1.png'
 import service2 from '../images/services-2.png'
 import service3 from '../images/services-3.png'
 import LightSpeed from 'react-reveal/LightSpeed';
-import styles from './Services.module.css'
+import styles from './Services.module.scss'
 const Services = () => {
 
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import arr from '../images/arrow.png'
-import styles from './Arrow.module.css'
+import styles from './Arrow.module.scss'
 
 const Arrow = () => {
 

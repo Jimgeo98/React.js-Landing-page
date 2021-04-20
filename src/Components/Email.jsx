@@ -1,6 +1,6 @@
 import React from 'react'
 import LightSpeed from 'react-reveal/LightSpeed';
-import styles from './Email.module.css'
+import styles from './Email.module.scss'
 
 
 function Email() {

@@ -12,12 +12,13 @@
 	width: 90%;
 	border-radius: 20px;
 	margin-left: 10px;
+
+	&:hover{
+		transform: scale(1.1);
+		cursor: pointer;
+	}
 }
 
-.us .about img:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
 
 .us h1.title{
 	margin-bottom: 25px;

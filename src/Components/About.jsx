@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './About.module.css'
+import styles from './About.module.scss'
 import LightSpeed from 'react-reveal/LightSpeed';
 import abimg from '../images/aboutimg.jpg'
 const About = () => {

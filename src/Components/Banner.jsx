@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Banner.module.css'
+import styles from './Banner.module.scss'
 import Logo from '../images/p3.jpg'
 
 let sectionStyle = {
